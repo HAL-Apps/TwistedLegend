@@ -1,0 +1,14 @@
+{
+  "version" : "0.0.1",
+  "title" : "peeps",
+  "character" : [
+    {
+      "name" : "Amakar",
+      "damage" : 500
+    },
+    {
+      "name" : "Emmett",
+      "damage" : 9
+    }
+  ]
+}

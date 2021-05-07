@@ -12,7 +12,9 @@ struct ContentView: View {
   var damage = 267.0
   
   var body: some View {
-    CharacterView(data: StubManager().characterViewModel)
+    VStack {
+      ActionView()
+    }
   }
 }
 

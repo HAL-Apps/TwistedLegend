@@ -1,8 +1,8 @@
 //
 //  ModelData.swift
-//  Gordon
+//  TwistedLegend
 //
-//  Created by Mike Austin on 1/14/21.
+//  Created by Emmett Austin on 5/7/21.
 //
 
 import Foundation

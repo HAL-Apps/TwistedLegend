@@ -2,11 +2,12 @@
 //  StubManager.swift
 //  TwistedLegend
 //
-//  Created by Emmett Austin on 5/5/21.
+//  Created by Emmett Austin on 5/7/21.
 //
 
 import Foundation
 
 struct StubManager {
-  var characterViewModel = CharacterViewModel(model: ModelData().party)
+  var statsViewModel = StatViewModel(model: ModelData().party)
+  var testViewModel = TestViewModel(model: ModelData().party)
 }

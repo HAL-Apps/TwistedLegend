@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Character: Codable {
+  var name: String
+  var stats: [Stat]
+  
+  init() {
+    self.name = ""
+    self.stats = [Stat]()
+  }
+}

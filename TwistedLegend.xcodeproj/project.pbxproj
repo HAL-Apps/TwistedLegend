@@ -61,6 +61,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E529C756264DD801004BDB76 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E58413E92645A3D700E6EF1F /* StatViewModel.swift */,
+				E58413EB2645A50000E6EF1F /* CharacterViewModel.swift */,
+				E58413ED2645A59E00E6EF1F /* TestViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E529C757264DD81B004BDB76 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E58413E72645A37700E6EF1F /* StubManager.swift */,
+				E58413E52645A2F500E6EF1F /* ModelData.swift */,
+				E58413E32645A29A00E6EF1F /* Party.swift */,
+				E58413E12645A25800E6EF1F /* Group.swift */,
+				E58413DF2645A20500E6EF1F /* Characters.swift */,
+				E58413DD2645A1AC00E6EF1F /* Stat.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E529C758264DD853004BDB76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5A607DB2643851300274C9D /* ContentView.swift */,
+				E58413F12645A62D00E6EF1F /* StatView.swift */,
+				E58413F32645A70F00E6EF1F /* StatNavigationView.swift */,
+				E58413EF2645A60A00E6EF1F /* TestView.swift */,
+				E58413F52645A7A200E6EF1F /* ActionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E5A607CD2643851300274C9D = {
 			isa = PBXGroup;
 			children = (
@@ -81,20 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				E5A607D92643851300274C9D /* TwistedLegendApp.swift */,
-				E5A607DB2643851300274C9D /* ContentView.swift */,
-				E58413F12645A62D00E6EF1F /* StatView.swift */,
-				E58413F32645A70F00E6EF1F /* StatNavigationView.swift */,
-				E58413EF2645A60A00E6EF1F /* TestView.swift */,
-				E58413F52645A7A200E6EF1F /* ActionView.swift */,
-				E58413E92645A3D700E6EF1F /* StatViewModel.swift */,
-				E58413EB2645A50000E6EF1F /* CharacterViewModel.swift */,
-				E58413ED2645A59E00E6EF1F /* TestViewModel.swift */,
-				E58413E72645A37700E6EF1F /* StubManager.swift */,
-				E58413E52645A2F500E6EF1F /* ModelData.swift */,
-				E58413E32645A29A00E6EF1F /* Party.swift */,
-				E58413E12645A25800E6EF1F /* Group.swift */,
-				E58413DF2645A20500E6EF1F /* Characters.swift */,
-				E58413DD2645A1AC00E6EF1F /* Stat.swift */,
+				E529C758264DD853004BDB76 /* View */,
+				E529C756264DD801004BDB76 /* ViewModel */,
+				E529C757264DD81B004BDB76 /* New Group */,
 				E58413DB2645A0A300E6EF1F /* party.json */,
 				E5A607DD2643851400274C9D /* Assets.xcassets */,
 				E5A607E22643851400274C9D /* Info.plist */,

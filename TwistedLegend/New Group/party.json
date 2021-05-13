@@ -206,7 +206,7 @@
               "boss": "no",
               "level": 1,
               "strong": "Archer, animal, and bomber",
-              "super": "Converts ammo into rokets and well... you know the rest. BOOOOMMM!!",
+              "super": "Converts ammo into rokets and well... you know the rest. BOOOOMMM!! damage: 300",
               "description": "camps somewhere, and picks off targets",
               "species": "human",
               "speed": "slow",
@@ -235,6 +235,26 @@
               "armor": 200,
               "criticalChance": 10,
               "damage": 900,
+              "health": 1000
+            }
+          ]
+        },
+        {
+          "name": "Berserker ",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Bosses",
+              "super": "Powers up and cuts with double speed and double damage. Damage 900",
+              "description": "A crazed drunk viking on steroids. Dual (not small) hatchets",
+              "species": "human",
+              "speed": "insanely fast",
+              "category": "human",
+              "defense": 100,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 450,
               "health": 1000
             }
           ]

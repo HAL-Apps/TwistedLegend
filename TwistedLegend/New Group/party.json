@@ -1,0 +1,225 @@
+{
+  "version": "0.0.1",
+  "title": "peeps",
+  "groups": [
+    {
+      "title": "bosses",
+      "characters": [
+        {
+          "name": "Amakar",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "fairy",
+              "super": "smash smash",
+              "description": "a demon like character ferocious in every way. ",
+              "species": "???",
+              "speed": "slow",
+              "category": "demon",
+              "defense": 700,
+              "armor": 1000,
+              "criticalChance": 100,
+              "damage": 800,
+              "health": 122000,
+              "chargeRate": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "good characters",
+      "characters": [
+        {
+          "name": "Robot",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Anything not fabricated",
+              "super": "A rocket pops out of the bots' back, and ignites, shooting the roket and blowing up on you",
+              "description": "An opponent formidable in every way. It has rokets, guns, lasers, bombs.",
+              "species": "android",
+              "speed": "super fast",
+              "category": "beast",
+              "defense": 100,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 200,
+              "health": 1000,
+              "chargeRate": 2
+            }
+          ]
+        },
+        {
+          "name": "Stone keeper",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "The deepest of evil",
+              "super": "Their eyes turn into the color of their stone, they get a boost and get 10 times stronger for everything including health and armor for 30 seconds.",
+              "description": "The stone is what gives them power. They channel that power through a relic of their choice to concentrate it, and better control it.",
+              "species": "Varies from stone to stone. You can be any speices to claim one.",
+              "speed": "super fast",
+              "category": "fairy",
+              "defense": 400,
+              "armor": 100,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000,
+              "controlLevel": 1,
+              "chargeRate": 7
+            }
+          ]
+        },
+        {
+          "name": "Gladiator",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Support Class",
+              "super": "Throws up 5 knives kicks them into you, and throws a harpoon(option to dodge if fast enough) impaling you. Damage: 170 per item thats hits its mark.",
+              "description": "Battle crazed romans who give you no mercy on the field.",
+              "species": "human",
+              "speed": "speedy",
+              "category": "human",
+              "defense": 200,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 400,
+              "health": 1300,
+              "chargeRate": 5
+            }
+          ]
+        },
+        {
+          "name": "Soldier",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Archer, sniper, animals, bomber",
+              "super": "Loads incindairy clip in, and double capacity of weapon for untill you use all the shots. compatible with all firearms",
+              "description": "varies from person to person. Able to use all firearms.",
+              "species": "human",
+              "speed": "medium",
+              "category": "human",
+              "defense": 30,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 500,
+              "health": 800,
+              "chargeRate": 2
+            }
+          ]
+        },
+        {
+          "name": "Ninja",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Archer, samuri, animals",
+              "super": "They can dodge anything thats shot throw at them for 22 seconds. Damage in creased by 46%",
+              "description": "Fast and silent, can dodge 1/5 of everything used against them.",
+              "species": "human",
+              "speed": "fast",
+              "category": "human",
+              "defense": 50,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 150,
+              "health": 800,
+              "chargeRate": 2
+            }
+          ]
+        },
+        {
+          "name": "Samurai",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Ninja, archer, and soldier",
+              "super": "calls in a Gunndum and hops in. 500 damage per blast",
+              "description": "Slow, but tank like character",
+              "species": "human",
+              "speed": "slow",
+              "category": "human",
+              "defense": 700,
+              "armor": 400,
+              "criticalChance": 10,
+              "damage": 200,
+              "health": 1100,
+              "chargeRate": 4
+            }
+          ]
+        },
+        {
+          "name": "Knight",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Ninja, animals, sniper",
+              "super": "They jump on a horse, and grap a lance from thin air, stab you and cant miss. damage per hit 250",
+              "description": "A knight from midevil times",
+              "species": "human",
+              "speed": "slow",
+              "category": "human",
+              "defense": 300,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000,
+              "chargeRate": 1
+            }
+          ]
+        },
+        {
+          "name": "Archer",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Ninja",
+              "super": "Shoots 1 shot and that slpits into 50 arrows damage 500",
+              "description": "An archer who is best a shooting far ranges.",
+              "species": "any",
+              "speed": "slowish",
+              "category": "human",
+              "defense": 50,
+              "armor": 20,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000
+            }
+          ]
+        },
+        {
+          "name": "Sniper",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "Archer, animal, and bomber",
+              "super": "Converts ammo into rokets and well... you know the rest. BOOOOMMM!!",
+              "description": "camps somewhere, and picks off targets",
+              "species": "human",
+              "speed": "slow",
+              "category": "human",
+              "defense": 10,
+              "armor": 20,
+              "criticalChance": 10,
+              "damage": 180,
+              "health": 600
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

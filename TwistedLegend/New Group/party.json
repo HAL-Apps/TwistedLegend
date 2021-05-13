@@ -29,7 +29,7 @@
       ]
     },
     {
-      "title": "good characters",
+      "title": "characters",
       "characters": [
         {
           "name": "Robot",
@@ -216,6 +216,26 @@
               "criticalChance": 10,
               "damage": 180,
               "health": 600
+            }
+          ]
+        },
+        {
+          "name": "Builder",
+          "stats": [
+            {
+              "boss": "no",
+              "level": 1,
+              "strong": "???",
+              "super": "Goes on a building frenzy",
+              "description": "builds things to help others",
+              "species": "human",
+              "speed": "fast",
+              "category": "human",
+              "defense": 400,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 900,
+              "health": 1000
             }
           ]
         }

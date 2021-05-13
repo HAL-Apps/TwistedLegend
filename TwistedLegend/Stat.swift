@@ -21,6 +21,7 @@ struct Stat: Codable {
   let criticalChance: Int
   let damage: Int
   let health: Int
+  let controlLevel: Int?
   
   
   
@@ -38,5 +39,6 @@ struct Stat: Codable {
     self.criticalChance = 0
     self.damage = 0
     self.health = 0
+    self.controlLevel = 0
   }
 }

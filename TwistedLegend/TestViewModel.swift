@@ -16,6 +16,6 @@ struct TestViewModel {
   
   init(model: Party) {
     self.init()
-    self.characters.append(model.groups[0].characters[1])
+    self.characters.append(model.groups[0].characters[5])
   }
 }

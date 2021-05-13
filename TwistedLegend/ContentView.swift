@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-  var name = "Emmett"
-  var damage = 267.0
   
   var body: some View {
     VStack {

@@ -8,6 +8,8 @@
 import Foundation
 
 struct Stat: Codable {
+  let boss: String
+  let level: Int
   let strong: String
   let `super`: String
   let description: String
@@ -23,6 +25,8 @@ struct Stat: Codable {
   
   
   init() {
+    self.boss = ""
+    self.level = 0
     self.strong = ""
     self.super = ""
     self.description = ""

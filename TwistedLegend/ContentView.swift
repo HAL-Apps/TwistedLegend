@@ -18,6 +18,8 @@ struct ContentView: View {
   }
 }
 
+
+// this be the speeds: Super slow, slow, slowish, medium, speedy, fast, super fast, insanely fast, ∞fast
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()

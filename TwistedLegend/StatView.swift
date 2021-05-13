@@ -13,6 +13,8 @@ struct StatView: View {
   var body: some View {
     VStack {
       Text("\(data.name)")
+      Text("Boss = \(data.stats[0].boss)")
+      Text("lvl = \(data.stats[0].level)")
       Text("S = \(data.stats[0].strong)")
       Text("Super = \(data.stats[0].super)")
       Text("D = \(data.stats[0].description)")

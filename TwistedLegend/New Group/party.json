@@ -35,10 +35,9 @@
           "name": "Robot",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Anything not fabricated",
-              "super": "A rocket pops out of the bots' back, and ignites, shooting the roket and blowing up on you",
+              "super": "A rocket pops out of the bots' back, and ignites, shooting the roket and blowing up on you. Ability to aim",
               "description": "An opponent formidable in every way. It has rokets, guns, lasers, bombs.",
               "species": "android",
               "speed": "super fast",
@@ -56,7 +55,6 @@
           "name": "Stone keeper",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "The deepest of evil",
               "super": "Their eyes turn into the color of their stone, they get a boost and get 10 times stronger for everything including health and armor for 30 seconds.",
@@ -78,10 +76,9 @@
           "name": "Gladiator",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Support Class",
-              "super": "Throws up 5 knives kicks them into you, and throws a harpoon(option to dodge if fast enough) impaling you. Damage: 170 per item thats hits its mark.",
+              "super": "Throws up 5 knives kicks them into you, and throws a harpoon(option to dodge if fast enough) impaling you.",
               "description": "Battle crazed romans who give you no mercy on the field.",
               "species": "human",
               "speed": "speedy",
@@ -99,7 +96,6 @@
           "name": "Soldier",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Archer, sniper, animals, bomber",
               "super": "Loads incindairy clip in, and double capacity of weapon for untill you use all the shots. compatible with all firearms",
@@ -120,10 +116,9 @@
           "name": "Ninja",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Archer, samuri, animals",
-              "super": "They can dodge anything thats shot throw at them for 22 seconds. Damage in creased by 46%",
+              "super": "They can dodge anything thats shot throw at them. Damage in creased by 46%",
               "description": "Fast and silent, can dodge 1/5 of everything used against them.",
               "species": "human",
               "speed": "fast",
@@ -141,7 +136,6 @@
           "name": "Samurai",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Ninja, archer, and soldier",
               "super": "calls in a Gunndum and hops in. 500 damage per blast",
@@ -162,7 +156,6 @@
           "name": "Knight",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Ninja, animals, sniper",
               "super": "They jump on a horse, and grap a lance from thin air, stab you and cant miss. damage per hit 250",
@@ -183,7 +176,6 @@
           "name": "Archer",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Ninja",
               "super": "Shoots 1 shot and that slpits into 50 arrows damage 500",
@@ -195,7 +187,8 @@
               "armor": 20,
               "criticalChance": 10,
               "damage": 100,
-              "health": 1000
+              "health": 1000,
+              "chargeRate": 3
             }
           ]
         },
@@ -203,7 +196,6 @@
           "name": "Sniper",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Archer, animal, and bomber",
               "super": "Converts ammo into rokets and well... you know the rest. BOOOOMMM!! damage: 300",
@@ -215,7 +207,8 @@
               "armor": 20,
               "criticalChance": 10,
               "damage": 180,
-              "health": 600
+              "health": 600,
+              "chargeRate": 3
             }
           ]
         },
@@ -223,7 +216,6 @@
           "name": "Builder",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "???",
               "super": "Goes on a building frenzy",
@@ -235,15 +227,15 @@
               "armor": 200,
               "criticalChance": 10,
               "damage": 900,
-              "health": 1000
+              "health": 1000,
+              "chargeRate": 1
             }
           ]
         },
         {
-          "name": "Berserker ",
+          "name": "Berserker",
           "stats": [
             {
-              "boss": "no",
               "level": 1,
               "strong": "Bosses",
               "super": "Powers up and cuts with double speed and double damage. Damage 900",
@@ -255,7 +247,8 @@
               "armor": 10,
               "criticalChance": 10,
               "damage": 450,
-              "health": 1000
+              "health": 1000,
+              "chargeRate": 5
             }
           ]
         }

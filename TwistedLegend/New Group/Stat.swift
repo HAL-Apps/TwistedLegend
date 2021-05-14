@@ -8,7 +8,7 @@
 import Foundation
 
 struct Stat: Codable {
-  let boss: String
+  let boss: String?
   let level: Int
   let strong: String
   let `super`: String
@@ -22,7 +22,7 @@ struct Stat: Codable {
   let damage: Int
   let health: Int
   let controlLevel: Int?
-  
+  let chargeRate: Int
   
   
   init() {
@@ -40,5 +40,6 @@ struct Stat: Codable {
     self.damage = 0
     self.health = 0
     self.controlLevel = 0
+    self.chargeRate = 0
   }
 }

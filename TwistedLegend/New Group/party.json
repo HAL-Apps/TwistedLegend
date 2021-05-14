@@ -22,7 +22,9 @@
               "criticalChance": 100,
               "damage": 800,
               "health": 122000,
-              "chargeRate": 10
+              "chargeRate": 10,
+              "duration": 20,
+              "superDamage": 300
             }
           ]
         }
@@ -47,7 +49,9 @@
               "criticalChance": 10,
               "damage": 200,
               "health": 1000,
-              "chargeRate": 2
+              "chargeRate": 2,
+              "duration": 5,
+              "superDamage": 300
             }
           ]
         },
@@ -68,7 +72,9 @@
               "damage": 100,
               "health": 1000,
               "controlLevel": 1,
-              "chargeRate": 7
+              "chargeRate": 7,
+              "duration": 5,
+              "superDamage": 300
             }
           ]
         },
@@ -88,7 +94,9 @@
               "criticalChance": 10,
               "damage": 400,
               "health": 1300,
-              "chargeRate": 5
+              "chargeRate": 5,
+              "duration": 10,
+              "superDamage": 170
             }
           ]
         },
@@ -108,7 +116,9 @@
               "criticalChance": 10,
               "damage": 500,
               "health": 800,
-              "chargeRate": 2
+              "chargeRate": 2,
+              "duration": 60,
+              "superDamage": 300
             }
           ]
         },
@@ -128,7 +138,9 @@
               "criticalChance": 10,
               "damage": 150,
               "health": 800,
-              "chargeRate": 2
+              "chargeRate": 2,
+              "duration": 22,
+              "superDamage": 219
             }
           ]
         },
@@ -148,7 +160,9 @@
               "criticalChance": 10,
               "damage": 200,
               "health": 1100,
-              "chargeRate": 4
+              "chargeRate": 4,
+              "duration": 30,
+              "superDamage": 500
             }
           ]
         },
@@ -168,7 +182,9 @@
               "criticalChance": 10,
               "damage": 100,
               "health": 1000,
-              "chargeRate": 1
+              "chargeRate": 1,
+              "duration": 5,
+              "superDamage": 250
             }
           ]
         },
@@ -188,7 +204,9 @@
               "criticalChance": 10,
               "damage": 100,
               "health": 1000,
-              "chargeRate": 3
+              "chargeRate": 3,
+              "duration": 10,
+              "superDamage": 100
             }
           ]
         },
@@ -198,7 +216,7 @@
             {
               "level": 1,
               "strong": "Archer, animal, and bomber",
-              "super": "Converts ammo into rokets and well... you know the rest. BOOOOMMM!! damage: 300",
+              "super": "Converts ammo into rockets and well... you know the rest. BOOOOMMM!! damage: 300",
               "description": "camps somewhere, and picks off targets",
               "species": "human",
               "speed": "slow",
@@ -208,7 +226,9 @@
               "criticalChance": 10,
               "damage": 180,
               "health": 600,
-              "chargeRate": 3
+              "chargeRate": 3,
+              "duration": 30,
+              "superDamage": 300
             }
           ]
         },
@@ -228,7 +248,9 @@
               "criticalChance": 10,
               "damage": 900,
               "health": 1000,
-              "chargeRate": 1
+              "chargeRate": 1,
+              "duration": 20,
+              "superDamage": 0
             }
           ]
         },
@@ -248,7 +270,9 @@
               "criticalChance": 10,
               "damage": 450,
               "health": 1000,
-              "chargeRate": 5
+              "chargeRate": 5,
+              "duration": 20,
+              "superDamage": 900
             }
           ]
         }

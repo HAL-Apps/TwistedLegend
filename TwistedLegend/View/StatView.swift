@@ -36,6 +36,8 @@ struct StatView: View {
           Text("CL = \(data.stats[0].controlLevel ?? 1)")
         }
         Text("CR = Once every \(data.stats[0].chargeRate) minutes")
+        Text("D = \(data.stats[0].duration) seconds")
+        Text("SD = \(data.stats[0].superDamage)")
       }
     }
   }

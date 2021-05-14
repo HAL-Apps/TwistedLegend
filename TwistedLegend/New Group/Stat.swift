@@ -23,6 +23,8 @@ struct Stat: Codable {
   let health: Int
   let controlLevel: Int?
   let chargeRate: Int
+  let duration: Int
+  let superDamage: Int
   
   
   init() {
@@ -41,5 +43,7 @@ struct Stat: Codable {
     self.health = 0
     self.controlLevel = 0
     self.chargeRate = 0
+    self.duration = 0
+    self.superDamage = 0
   }
 }

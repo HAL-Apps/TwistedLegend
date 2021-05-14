@@ -275,6 +275,29 @@
               "superDamage": 900
             }
           ]
+        },
+        {
+          "name": "Goliath",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "Everyone",
+              "super": "<#Super move#>",
+              "description": "<#description#>",
+              "species": "<#human#>",
+              "speed": "<#super fast#>",
+              "category": "<#fairy#>",
+              "defense": <#400#>,
+              "armor": <#100#>,
+              "criticalChance": <#10#>,
+              "damage": <#100#>,
+              "health": <#1000#>,
+        "chargeRate": <#10#>,
+              "duration": <#10#>,
+              "superDamage": <#600#>
+            }
+          ]
         }
       ]
     }

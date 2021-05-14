@@ -71,7 +71,7 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		E529C757264DD81B004BDB76 /* New Group */ = {
+		E529C757264DD81B004BDB76 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				E58413E72645A37700E6EF1F /* StubManager.swift */,
@@ -82,7 +82,7 @@
 				E58413DD2645A1AC00E6EF1F /* Stat.swift */,
 				E529C759264DE076004BDB76 /* party.json */,
 			);
-			path = "New Group";
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E529C758264DD853004BDB76 /* View */ = {
@@ -119,7 +119,7 @@
 				E5A607D92643851300274C9D /* TwistedLegendApp.swift */,
 				E529C758264DD853004BDB76 /* View */,
 				E529C756264DD801004BDB76 /* ViewModel */,
-				E529C757264DD81B004BDB76 /* New Group */,
+				E529C757264DD81B004BDB76 /* Model */,
 				E5A607DD2643851400274C9D /* Assets.xcassets */,
 				E5A607E22643851400274C9D /* Info.plist */,
 				E5A607DF2643851400274C9D /* Preview Content */,

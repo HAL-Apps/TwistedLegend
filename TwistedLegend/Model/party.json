@@ -37,9 +37,9 @@
               "strong": "Everyone",
               "super": "Radiates poisen in all directions",
               "description": "The hulking brute that david defeated way back when.",
-              "species": "human",
+              "species": "Human",
               "speed": "Super slow",
-              "category": "demon",
+              "category": "Human",
               "defense": 1000,
               "armor": 1900,
               "criticalChance": 30,
@@ -48,6 +48,28 @@
               "chargeRate": 10,
               "duration": 60,
               "superDamage": 200
+            }
+          ]
+        },
+        {
+          "name": "Shadowbent",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "The purest of goodness",
+              "super": "howls and calls in a pack(4) of wolfs.",
+              "description": "A man thats looks like a wolf. + A wolf that looks like a man = Shadowbent",
+              "species": "Wear Wolf",
+              "speed": "∞fast",
+              "category": "demon",
+              "defense": 1000,
+              "armor": 100,
+              "criticalChance": 30,
+              "damage": 2000,
+              "health": 100000,
+              "chargeRate": 4,
+              "duration": 60,
+              "superDamage": 500
             }
           ]
         }
@@ -296,6 +318,28 @@
               "chargeRate": 5,
               "duration": 20,
               "superDamage": 900
+            }
+          ]
+        },
+        {
+          "name": "Animal",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Archer, Soldier",
+              "super": "Double damage and defence",
+              "description": "This is a bearˇ",
+              "species": "Animal",
+              "speed": "Varies",
+              "category": "Fairy",
+              "defense": 300,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 500,
+              "health": 1400,
+              "chargeRate": 4,
+              "duration": 10,
+              "superDamage": 1000
             }
           ]
         }

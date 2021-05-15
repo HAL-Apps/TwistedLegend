@@ -3,80 +3,6 @@
   "title": "peeps",
   "groups": [
     {
-      "title": "bosses",
-      "characters": [
-        {
-          "name": "Amakar",
-          "stats": [
-            {
-              "boss": "yes",
-              "level": 1,
-              "strong": "fairy",
-              "super": "smash smash",
-              "description": "a demon like character ferocious in every way. ",
-              "species": "???",
-              "speed": "slow",
-              "category": "demon",
-              "defense": 700,
-              "armor": 1000,
-              "criticalChance": 100,
-              "damage": 800,
-              "health": 122000,
-              "chargeRate": 10,
-              "duration": 20,
-              "superDamage": 300
-            }
-          ]
-        },
-        {
-          "name": "Goliath",
-          "stats": [
-            {
-              "boss": "yes",
-              "level": 1,
-              "strong": "Everyone",
-              "super": "Radiates poisen in all directions",
-              "description": "The hulking brute that david defeated way back when.",
-              "species": "Human",
-              "speed": "Super slow",
-              "category": "Human",
-              "defense": 1000,
-              "armor": 1900,
-              "criticalChance": 30,
-              "damage": 700,
-              "health": 50000,
-              "chargeRate": 10,
-              "duration": 60,
-              "superDamage": 200
-            }
-          ]
-        },
-        {
-          "name": "Shadowbent",
-          "stats": [
-            {
-              "boss": "yes",
-              "level": 1,
-              "strong": "The purest of goodness",
-              "super": "howls and calls in a pack(4) of wolfs.",
-              "description": "A man thats looks like a wolf. + A wolf that looks like a man = Shadowbent",
-              "species": "Wear Wolf",
-              "speed": "∞fast",
-              "category": "demon",
-              "defense": 1000,
-              "armor": 100,
-              "criticalChance": 30,
-              "damage": 2000,
-              "health": 100000,
-              "chargeRate": 4,
-              "duration": 60,
-              "superDamage": 500
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "characters",
       "characters": [
         {
@@ -345,6 +271,80 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "title": "bosses",
+      "characters": [
+        {
+          "name": "Amakar",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "fairy",
+              "super": "smash smash",
+              "description": "a demon like character ferocious in every way. ",
+              "species": "???",
+              "speed": "slow",
+              "category": "demon",
+              "defense": 700,
+              "armor": 1000,
+              "criticalChance": 100,
+              "damage": 800,
+              "health": 122000,
+              "chargeRate": 10,
+              "duration": 20,
+              "superDamage": 300
+            }
+          ]
+        },
+        {
+          "name": "Goliath",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "Everyone",
+              "super": "Radiates poisen in all directions",
+              "description": "The hulking brute that david defeated way back when.",
+              "species": "Human",
+              "speed": "Super slow",
+              "category": "Human",
+              "defense": 1000,
+              "armor": 1900,
+              "criticalChance": 30,
+              "damage": 700,
+              "health": 50000,
+              "chargeRate": 10,
+              "duration": 60,
+              "superDamage": 200
+            }
+          ]
+        },
+        {
+          "name": "Shadowbent",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "The purest of goodness",
+              "super": "howls and calls in a pack(4) of wolfs.",
+              "description": "A man thats looks like a wolf. + A wolf that looks like a man = Shadowbent",
+              "species": "Wear Wolf",
+              "speed": "∞fast",
+              "category": "demon",
+              "defense": 1000,
+              "armor": 100,
+              "criticalChance": 30,
+              "damage": 2000,
+              "health": 100000,
+              "chargeRate": 4,
+              "duration": 60,
+              "superDamage": 500
+            }
+          ]
+        }
+      ]
+    },
   ]
 }

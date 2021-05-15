@@ -15,9 +15,9 @@ struct StatView: View {
       
       VStack(spacing: 3) {
         Text("\(data.name)")
-        if data.name == "Amakar" {
-          Text("Boss = \(data.stats[0].boss ?? "ogo")")          
-        }
+//        if data.name == "Amakar" {
+//          Text("Boss = \(data.stats[0].boss ?? "ogo")")
+//        }
         Text("lvl = \(data.stats[0].level)")
         Text("S = \(data.stats[0].strong)")
         Text("Super = \(data.stats[0].super)")
@@ -32,9 +32,9 @@ struct StatView: View {
         Text("CC = \(data.stats[0].criticalChance)")
         Text("D = \(data.stats[0].damage)")
         Text("H = \(data.stats[0].health)")
-        if data.name == "Stone keeper" {
-          Text("CL = \(data.stats[0].controlLevel ?? 1)")
-        }
+        //        if data.name == "Stone keeper" {
+        //          Text("CL = \(data.stats[0].controlLevel ?? 1)")
+        //        }
         Text("CR = Once every \(data.stats[0].chargeRate) minutes")
         Text("D = \(data.stats[0].duration) seconds")
         Text("SD = \(data.stats[0].superDamage)")

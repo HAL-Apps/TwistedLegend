@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E529C75A264DE076004BDB76 /* party.json in Resources */ = {isa = PBXBuildFile; fileRef = E529C759264DE076004BDB76 /* party.json */; };
+		E529C75C264EE07C004BDB76 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529C75B264EE07C004BDB76 /* CharacterView.swift */; };
 		E58413DE2645A1AC00E6EF1F /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58413DD2645A1AC00E6EF1F /* Stat.swift */; };
 		E58413E02645A20500E6EF1F /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58413DF2645A20500E6EF1F /* Characters.swift */; };
 		E58413E22645A25800E6EF1F /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58413E12645A25800E6EF1F /* Group.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		E529C759264DE076004BDB76 /* party.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = party.json; sourceTree = "<group>"; };
+		E529C75B264EE07C004BDB76 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 		E58413DD2645A1AC00E6EF1F /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
 		E58413DF2645A20500E6EF1F /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		E58413E12645A25800E6EF1F /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				E5A607DB2643851300274C9D /* ContentView.swift */,
 				E58413F12645A62D00E6EF1F /* StatView.swift */,
+				E529C75B264EE07C004BDB76 /* CharacterView.swift */,
 				E58413F32645A70F00E6EF1F /* StatNavigationView.swift */,
 				E58413EF2645A60A00E6EF1F /* TestView.swift */,
 				E58413F52645A7A200E6EF1F /* ActionView.swift */,
@@ -211,6 +214,7 @@
 				E5A607DC2643851300274C9D /* ContentView.swift in Sources */,
 				E5A607DA2643851300274C9D /* TwistedLegendApp.swift in Sources */,
 				E58413F42645A70F00E6EF1F /* StatNavigationView.swift in Sources */,
+				E529C75C264EE07C004BDB76 /* CharacterView.swift in Sources */,
 				E58413EE2645A59E00E6EF1F /* TestViewModel.swift in Sources */,
 				E58413F22645A62D00E6EF1F /* StatView.swift in Sources */,
 				E58413E22645A25800E6EF1F /* Group.swift in Sources */,

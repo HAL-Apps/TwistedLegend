@@ -55,6 +55,7 @@
           "name": "Shadowbent",
           "stats": [
             {
+              "boss": "yes",
               "level": 1,
               "strong": "The purest of goodness",
               "super": "howls and calls in a pack(4) of wolfs.",

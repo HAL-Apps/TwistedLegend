@@ -7,9 +7,15 @@
 
 import Foundation
 
-struct Character: Codable {
+struct Character: Codable, Hashable, Identifiable {
+  var id = UUID()
   var name: String
   var stats: [Stat]
+  
+  enum CodingKeys: String, CodingKey {
+    case name = "name"
+    case stats = "stats"
+  }
   
   init() {
     self.name = ""

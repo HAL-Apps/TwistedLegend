@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Stat: Codable {
+struct Stat: Codable, Hashable, Identifiable {
+  var id = UUID()
   let boss: String?
   let level: Int
   let strong: String
@@ -25,6 +26,26 @@ struct Stat: Codable {
   let chargeRate: Int
   let duration: Int
   let superDamage: Int
+  
+  enum CodingKeys: String, CodingKey {
+    case boss = "boss"
+    case level = "level"
+    case strong = "strong"
+    case `super` = "super"
+    case description = "description"
+    case species = "species"
+    case speed = "speed"
+    case category = "category"
+    case defense = "defense"
+    case armor = "armor"
+    case criticalChance = "criticalChance"
+    case damage = "damage"
+    case health = "health"
+    case controlLevel = "controlLevel"
+    case chargeRate = "chargeRate"
+    case duration = "duration"
+    case superDamage = "superDamage"
+  }
   
   
   init() {

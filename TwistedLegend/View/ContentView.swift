@@ -11,7 +11,7 @@ struct ContentView: View {
   
   var body: some View {
     VStack {
-      ActionView()
+      CharacterView(data: CharacterViewModel(model: ModelData().party))
     }
   }
 }

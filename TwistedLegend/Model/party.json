@@ -247,28 +247,6 @@
               "superDamage": 900
             }
           ]
-        },
-        {
-          "name": "Animal",
-          "stats": [
-            {
-              "level": 1,
-              "strong": "Archer, Soldier",
-              "super": "Double damage and defence",
-              "description": "This is a bearˇ",
-              "species": "Animal",
-              "speed": "Varies",
-              "category": "Fairy",
-              "defense": 300,
-              "armor": 10,
-              "criticalChance": 10,
-              "damage": 500,
-              "health": 1400,
-              "chargeRate": 4,
-              "duration": 10,
-              "superDamage": 1000
-            }
-          ]
         }
       ]
     },

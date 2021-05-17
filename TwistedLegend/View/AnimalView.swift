@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct AnimalView: View {
-  let data: StatViewModel
+  let data: AnimalViewModel
   
   var body: some View {
-    Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    NavigationView {
+      NavigationLink("click me", destination: StatView(data: StubManager().statsViewModel))
+    }
   }
 }
 
 struct AnimalView_Previews: PreviewProvider {
   static var previews: some View {
-    AnimalView(data: StubManager().statsViewModel)
+    AnimalView(data: StubManager().animalViewModel)
   }
 }

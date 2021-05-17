@@ -11,4 +11,5 @@ struct StubManager {
   var statsViewModel = StatViewModel(model: ModelData().party)
   var testViewModel = TestViewModel(model: ModelData().party)
   var characterViewModel = CharacterViewModel(model: ModelData().party)
+  var animalViewModel = AnimalViewModel(model: ModelData().party)
 }

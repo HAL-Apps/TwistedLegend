@@ -18,6 +18,7 @@ struct CharacterView: View {
         }
       }
       .navigationTitle("Select a character")
+      
     }
   }
 }

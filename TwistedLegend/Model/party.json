@@ -346,5 +346,28 @@
         }
       ]
     },
+    {
+      "title": "animals",
+      "characters": [
+        {
+          "name": "Neaman Lion",
+          "stats": [
+            {
+              "level": 1,
+              "super": "Evolves into a 2x bigger lion. Double damage, 3x health, and 2x defense.",
+              "speed": "fast",
+              "defense": 0,
+              "armor": 999999,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 2000,
+              "chargeRate": 4,
+              "duration": 30,
+              "superDamage": 1
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

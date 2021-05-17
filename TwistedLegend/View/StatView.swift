@@ -26,19 +26,19 @@ struct StatView: View {
         }
         Text("level = \(data.stats[0].level)")
           .padding(.vertical, 10)
-        Text("Strong = \(data.stats[0].strong)")
+        Text("Strong = \(data.stats[0].strong ?? "ogo")")
           .padding(.vertical, 10)
         Text("Super = \(data.stats[0].super)")
           .padding(10)
-        Text("Description = \(data.stats[0].description)")
+        Text("Description = \(data.stats[0].description ?? "ogo")")
           .padding(10)
-        Text("Species = \(data.stats[0].species)")
+        Text("Species = \(data.stats[0].species ?? "ogo")")
           .padding(.vertical, 5)
         Text("Speed = \(data.stats[0].speed)")
           .padding(.vertical, 5)
       }
       VStack(spacing: 3) {
-        Text("Category = \(data.stats[0].category)")
+        Text("Category = \(data.stats[0].category ?? "ogo")")
           .padding(.vertical, 5)
         Text("Defense = \(data.stats[0].defense)")
           .padding(.vertical, 5)
@@ -61,7 +61,7 @@ struct StatView: View {
           .padding(.vertical, 5)
       }
     }
-    .navigationTitle("Switch your character")
+    .navigationTitle("Choose your character")
     .padding()
   }
 }

@@ -11,12 +11,12 @@ struct Stat: Codable, Hashable, Identifiable {
   var id = UUID()
   let boss: String?
   let level: Int
-  let strong: String
+  let strong: String?
   let `super`: String
-  let description: String
-  let species: String
+  let description: String?
+  let species: String?
   let speed: String
-  let category: String
+  let category: String?
   let defense: Int
   let armor: Int
   let criticalChance: Int

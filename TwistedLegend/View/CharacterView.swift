@@ -17,6 +17,7 @@ struct CharacterView: View {
           Text("\(character.name)")
         }
       }
+      .navigationTitle("Select a character")
     }
   }
 }

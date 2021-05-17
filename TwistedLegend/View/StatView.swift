@@ -61,6 +61,8 @@ struct StatView: View {
           .padding(.vertical, 5)
       }
     }
+    .navigationTitle("Switch your character")
+    .padding()
   }
 }
 

@@ -70,10 +70,10 @@
 		E529C756264DD801004BDB76 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				E58413E92645A3D700E6EF1F /* StatViewModel.swift */,
-				E58413EB2645A50000E6EF1F /* CharacterViewModel.swift */,
 				E58413ED2645A59E00E6EF1F /* TestViewModel.swift */,
 				E55ED4292652E3A7008E5B93 /* AnimalViewModel.swift */,
+				E58413EB2645A50000E6EF1F /* CharacterViewModel.swift */,
+				E58413E92645A3D700E6EF1F /* StatViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -96,12 +96,12 @@
 			isa = PBXGroup;
 			children = (
 				E5A607DB2643851300274C9D /* ContentView.swift */,
-				E58413F12645A62D00E6EF1F /* StatView.swift */,
-				E529C75B264EE07C004BDB76 /* CharacterView.swift */,
+				E58413F52645A7A200E6EF1F /* ActionView.swift */,
 				E58413F32645A70F00E6EF1F /* StatNavigationView.swift */,
 				E58413EF2645A60A00E6EF1F /* TestView.swift */,
-				E58413F52645A7A200E6EF1F /* ActionView.swift */,
 				E529C75D265205C8004BDB76 /* AnimalView.swift */,
+				E529C75B264EE07C004BDB76 /* CharacterView.swift */,
+				E58413F12645A62D00E6EF1F /* StatView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

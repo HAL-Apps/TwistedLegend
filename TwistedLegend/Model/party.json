@@ -247,6 +247,97 @@
               "superDamage": 900
             }
           ]
+        },
+        {
+          "name": "NF",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "???",
+              "super": "takes a crowbar, and sends you flying",
+              "description": "A talented rapper who is ruthless.",
+              "species": "human",
+              "speed": "fast",
+              "category": "human",
+              "defense": 1000,
+              "armor": 120,
+              "criticalChance": 10,
+              "damage": 400,
+              "health": 1200,
+              "chargeRate": 1,
+              "duration": 5,
+              "superDamage": 600
+            }
+          ]
+        },
+        {
+          "name": "Amakar",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "fairy",
+              "super": "smash smash",
+              "description": "a demon like character ferocious in every way. ",
+              "species": "???",
+              "speed": "slow",
+              "category": "demon",
+              "defense": 700,
+              "armor": 1000,
+              "criticalChance": 100,
+              "damage": 800,
+              "health": 122000,
+              "chargeRate": 10,
+              "duration": 20,
+              "superDamage": 300
+            }
+          ]
+        },
+        {
+          "name": "Goliath",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "Everyone",
+              "super": "Radiates poisen in all directions",
+              "description": "The hulking brute that david defeated way back when.",
+              "species": "Human",
+              "speed": "Super slow",
+              "category": "Human",
+              "defense": 1000,
+              "armor": 1900,
+              "criticalChance": 30,
+              "damage": 700,
+              "health": 50000,
+              "chargeRate": 10,
+              "duration": 60,
+              "superDamage": 200
+            }
+          ]
+        },
+        {
+          "name": "Shadowbent",
+          "stats": [
+            {
+              "boss": "yes",
+              "level": 1,
+              "strong": "The purest of goodness",
+              "super": "howls and calls in a pack(4) of wolfs.",
+              "description": "A man thats looks like a wolf. + A wolf that looks like a man = Shadowbent",
+              "species": "Wear Wolf",
+              "speed": "∞fast",
+              "category": "demon",
+              "defense": 1000,
+              "armor": 100,
+              "criticalChance": 30,
+              "damage": 2000,
+              "health": 100000,
+              "chargeRate": 4,
+              "duration": 60,
+              "superDamage": 500
+            }
+          ]
         }
       ]
     },
@@ -325,7 +416,7 @@
       ]
     },
     {
-      "title": "animals",
+      "title": "animals<not sure if we should do thisˇˇ>",
       "characters": [
         {
           "name": "Neaman Lion",
@@ -342,6 +433,254 @@
               "chargeRate": 4,
               "duration": 30,
               "superDamage": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "human",
+      "characters": [
+        {
+          "name": "Stone keeper",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "The deepest of evil",
+              "super": "Their eyes turn into the color of their stone, they get a boost and get 10 times stronger for everything including health and armor for 30 seconds.",
+              "description": "The stone is what gives them power. They channel that power through a relic of their choice to concentrate it, and better control it.",
+              "species": "Varies from stone to stone. You can be any speices to claim one.",
+              "speed": "Super fast",
+              "category": "Fairy",
+              "defense": 400,
+              "armor": 100,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000,
+              "controlLevel": 1,
+              "chargeRate": 7,
+              "duration": 5,
+              "superDamage": 300
+            }
+          ]
+        },
+        {
+          "name": "Gladiator",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Support Class",
+              "super": "Throws up 5 knives kicks them into you, and throws a harpoon(option to dodge if fast enough) impaling you.",
+              "description": "Battle crazed romans who give you no mercy on the field.",
+              "species": "Human",
+              "speed": "Speedy",
+              "category": "Human",
+              "defense": 200,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 400,
+              "health": 1300,
+              "chargeRate": 5,
+              "duration": 10,
+              "superDamage": 170
+            }
+          ]
+        },
+        {
+          "name": "Soldier",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Archer, sniper, animals, bomber",
+              "super": "Loads incindairy clip in, and double capacity of weapon for untill you use all the shots. compatible with all firearms",
+              "description": "varies from person to person. Able to use all firearms.",
+              "species": "human",
+              "speed": "medium",
+              "category": "Human",
+              "defense": 30,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 500,
+              "health": 800,
+              "chargeRate": 2,
+              "duration": 60,
+              "superDamage": 300
+            }
+          ]
+        },
+        {
+          "name": "Ninja",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Archer, samuri, animals",
+              "super": "They can dodge anything thats shot throw at them. Damage in creased by 46%",
+              "description": "Fast and silent, can dodge 1/5 of everything used against them.",
+              "species": "Human",
+              "speed": "Fast",
+              "category": "Human",
+              "defense": 50,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 150,
+              "health": 800,
+              "chargeRate": 2,
+              "duration": 22,
+              "superDamage": 219
+            }
+          ]
+        },
+        {
+          "name": "Samurai",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Ninja, archer, and soldier",
+              "super": "calls in a Gunndum and hops in. 500 damage per blast",
+              "description": "Slow, but tank like character",
+              "species": "Human",
+              "speed": "Slow",
+              "category": "Human",
+              "defense": 700,
+              "armor": 400,
+              "criticalChance": 10,
+              "damage": 200,
+              "health": 1100,
+              "chargeRate": 4,
+              "duration": 30,
+              "superDamage": 500
+            }
+          ]
+        },
+        {
+          "name": "Knight",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Ninja, animals, sniper",
+              "super": "They jump on a horse, and grap a lance from thin air, stab you and cant miss. damage per hit 250",
+              "description": "A knight from midevil times",
+              "species": "Human",
+              "speed": "Slow",
+              "category": "Human",
+              "defense": 300,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000,
+              "chargeRate": 1,
+              "duration": 5,
+              "superDamage": 250
+            }
+          ]
+        },
+        {
+          "name": "Archer",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Ninja",
+              "super": "Shoots 1 shot and that slpits into 50 arrows damage 500",
+              "description": "An archer who is best a shooting far ranges.",
+              "species": "Any",
+              "speed": "Slowish",
+              "category": "Human",
+              "defense": 50,
+              "armor": 20,
+              "criticalChance": 10,
+              "damage": 100,
+              "health": 1000,
+              "chargeRate": 3,
+              "duration": 10,
+              "superDamage": 100
+            }
+          ]
+        },
+        {
+          "name": "Sniper",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Archer, animal, and bomber",
+              "super": "Converts ammo into rockets and well... you know the rest. BOOOOMMM!! damage: 300",
+              "description": "camps somewhere, and picks off targets",
+              "species": "Human",
+              "speed": "Slow",
+              "category": "Human",
+              "defense": 10,
+              "armor": 20,
+              "criticalChance": 10,
+              "damage": 180,
+              "health": 600,
+              "chargeRate": 3,
+              "duration": 30,
+              "superDamage": 300
+            }
+          ]
+        },
+        {
+          "name": "Builder",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "???",
+              "super": "Goes on a building frenzy",
+              "description": "builds things to help others",
+              "species": "Human",
+              "speed": "Fast",
+              "category": "Human",
+              "defense": 400,
+              "armor": 200,
+              "criticalChance": 10,
+              "damage": 900,
+              "health": 1000,
+              "chargeRate": 1,
+              "duration": 20,
+              "superDamage": 0
+            }
+          ]
+        },
+        {
+          "name": "Berserker",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "Bosses",
+              "super": "Powers up and cuts with double speed and double damage. Damage 900",
+              "description": "A crazed drunk viking on steroids. Dual (not small) hatchets",
+              "species": "Human",
+              "speed": "Hnsanely fast",
+              "category": "Human",
+              "defense": 100,
+              "armor": 10,
+              "criticalChance": 10,
+              "damage": 450,
+              "health": 1000,
+              "chargeRate": 5,
+              "duration": 20,
+              "superDamage": 900
+            }
+          ]
+        },
+        {
+          "name": "NF",
+          "stats": [
+            {
+              "level": 1,
+              "strong": "???",
+              "super": "Takes a crowbar, and sends you flying",
+              "description": "A talented rapper who is ruthless.",
+              "species": "Human",
+              "speed": "Fast",
+              "category": "Human",
+              "defense": 1000,
+              "armor": 120,
+              "criticalChance": 10,
+              "damage": 400,
+              "health": 1200,
+              "chargeRate": 1,
+              "duration": 5,
+              "superDamage": 600
             }
           ]
         }
